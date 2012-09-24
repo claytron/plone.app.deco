@@ -338,6 +338,7 @@ buster.testCase("Panel", {
 buster.testCase("Toolbar", {
     setUp: function() {
         $.plone = $.plone || {};
+        $.plone.tiletype = $.plone.tiletype || {};
         $.plone.toolbar = this.stub();
         $.plone.toolbar.iframe_stretch = this.stub();
         $.plone.toolbar.iframe_shrink = this.stub();
